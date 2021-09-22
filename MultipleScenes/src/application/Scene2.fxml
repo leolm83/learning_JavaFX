@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="79.0" prefWidth="437.0" text="Segunda Scene !!!">
+         <font>
+            <Font name="Bernard MT Condensed" size="64.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#switchToScene1" text="Voltar para Scene 1">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
